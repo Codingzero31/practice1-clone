@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: arial;
+}
+
+.header {
+    /* border: 1px solid red; */
+
+}
+
+#myVideo {
+    background-position: cover;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    opacity: .8;
+}
+
+.nav {
+    /* border: 1px solid white; */
+    background-color: #1C2624;
+    position: sticky;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 30px 70px;
+    background: transparent;
+
+}
+
+.item__search input {
+    padding: 4px 3px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.item__search .fa-search {
+    font-size: 1.6em;
+    margin-top: 3px;
+    background: transparent;
+}
+
+.item__search .fa-search:hover {
+    color: rgb(105, 141, 141);
+    transition: 300ms;
+    transform: rotate(120deg);
+}
+
+.item__search button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.nav ul li a {
+    text-decoration: none;
+    background: transparent;
+
+}
+
+.nav ul li a:hover {
+    color: rgb(105, 141, 141);
+    transition: 300ms;
+}
+
+.mid__section h1 {
+    background: transparent;
+    font-size: 4rem;
+    padding: 10px 20px;
+}
+
+.mid__section p {
+    background: transparent;
+}
+
+.mid__section {
+    text-align: center;
+    position: absolute;
+    bottom: 40%;
+    left: 26%;
+    width: 50%;
+    background: transparent;
+}
+
+.container {
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.content {
+    width: 25%;
+    left: 38%;
+    position: absolute;
+    bottom: -30%;
+    text-align: center;
+    background: transparent;
+}
+
+.content h3 {
+    background: transparent;
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+.container p {
+    background: transparent;
+    font-size: .9rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__item {
+    /* border: 1px solid yellow; */
+    width: 350px;
+    height: 450px;
+    margin: 23px 12px;
+
+}
+
+.box__item p {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: -90%;
+    margin-left: 100px;
+}
+
+.box__item img {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    border-radius: 7px;
+}
+
+.box__item img:hover {
+    opacity: 100%;
+    transition: 300ms;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+H4 {
+    display: block;
+    text-align: center;
+    margin: 32px 0;
+    font-family: system-ui;
+    color: rgb(0, 92, 128);
+    cursor: pointer;
+}
+
+.last__img img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: .3;
+}
+
+.box__2 {
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.box__item2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px 12px;
+}
+
+.box__item2 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 12px;
+
+
+}
+
+.box__item2 img:hover{
+    transform: scale(1.02);
+    transition: 300ms ease;
+    opacity: .5;
+}
+.content__2 {
+    text-align: center;
+    width: 100%;
+    margin: 23px 0;
+}
+
+.content__2 h2{
+    margin: 8px 0;
+    font-family: tahoma;
+    font-size: 2.2rem;
+}
+
+.content p{
+    font-family: arial;
+    font-size: 1.5rem;
+}
+
+.last__img img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    opacity: .3;
+}
+
+.last__para{
+    text-align: center;
+    margin: 22px 0;
+    font-family: system-ui;
+    font-size: 1.9rem;
+    color: rgb(0, 92, 128);
+}
+
+.footer{
+    text-align: center;
+}
+
+span{
+    color: rgb(0, 92, 128);
+}
